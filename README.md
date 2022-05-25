@@ -30,4 +30,4 @@ Enquanto a `flag` continuar `True`, um laço `while` continuará iterando e exec
 # Utilização:
 Para rodar localmente basta clonar este repositorio e rodar o comando `bash  init.sh`.
 
-Para utilizar o projeto utilizando Docker execute o comando `dockeer-compose up --build`.
+Para utilizar o projeto usando Docker execute o comando `docker-compose up --build`.
