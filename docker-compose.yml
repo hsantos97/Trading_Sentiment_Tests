@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  worker:
+    stdin_open: true
+    build:
+      dockerfile: dockerfile
+      context: ./
+    volumes:
+      - /__pycache__
+      - ./data:/data
+      - /challange/src/data:/challange/src/data
